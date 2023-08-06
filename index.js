@@ -14,7 +14,8 @@ app.use((req, res, next) => {
 
 const pool = new Pool({
   user: 'database',
-  host: '34.123.111.220',
+  // host: '34.123.111.220',
+  host: '10.0.208.3',
   database: 'todo_data',
   password: 'root',
   port: '5432',
